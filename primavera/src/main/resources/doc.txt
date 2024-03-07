@@ -1,0 +1,15 @@
+Estereótipos dos bens
+
+@Component  = bens genérico => pojo
+@Reposiotry = para uso com o Spring Data (Banco de dados)
+@Service    = para implementar as regras de negócio
+@controller = responsável por processar as requiições http
+
+Ciclos de vidado bean
+
+	@Scope("tipo")
+	- Singleton (padão) = uma única instancia para todas as solicitações
+	- Prototype = vários intâncias, uma para cada solicitações
+	- Request = por requisiçao
+	- Session = por sessão
+	

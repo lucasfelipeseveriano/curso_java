@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf16984299402850" configfile="/JSF_aula02/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="WEB-INF/pag1.xhtml" x="288" y="228" id="pf16984362182661" outlinks="pf16984362182662" path="/WEB-INF/pag1.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="WEB-INF/pag2.xhtml" x="540" y="324" id="pf16984362182663" inlinks="pf16984362182662" path="/WEB-INF/pag2.xhtml"/>
+  <links id="pf16984362182662" target="pf16984362182663" source="pf16984362182661">
+    <bendPoints d1Width="167" d2Width="-169"/>
+  </links>
+</pageflow:Pageflow>

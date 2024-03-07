@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="285.0" prefWidth="329.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.softgraf.controller.ControleCadastro">
+   <children>
+      <Label layoutX="60.0" layoutY="77.0" text="ID" />
+      <Label layoutX="56.0" layoutY="112.0" text="Nome" />
+      <Label layoutX="58.0" layoutY="145.0" text="Email" />
+      <Button layoutX="63.0" layoutY="183.0" mnemonicParsing="false" onAction="#acoaSalvar" text="Salvar" />
+      <Button layoutX="153.0" layoutY="183.0" mnemonicParsing="false" onAction="#acaoBuscarPorNome" text="Buscar por nome" />
+      <TextField fx:id="txtId" layoutX="101.0" layoutY="73.0" prefHeight="25.0" prefWidth="52.0" />
+      <TextField fx:id="txtNome" layoutX="101.0" layoutY="108.0" />
+      <TextField fx:id="txtEmail" layoutX="101.0" layoutY="141.0" />
+   </children>
+</AnchorPane>
